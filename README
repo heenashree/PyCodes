@@ -2,7 +2,7 @@ This repository contains
 1. MRO
 2. Data structures
 3. Object Oriented Programming Problems
-4. Lambda
+4. Lambda and Map
 5. Decorators
 6. Web scrapping
 7. Pandas
@@ -13,6 +13,7 @@ This repository contains
 12. Searching
 13. Sorting
 14. Magic Methods
+15. Lots of practice questions
 
  All above is working in progress and this repository is still growing and will probably keep on growing.
  Happy Coding ... :)
