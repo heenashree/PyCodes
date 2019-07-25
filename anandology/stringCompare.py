@@ -10,7 +10,6 @@ False
 def istcomp(x,y):
     count = 0
     x = [i for i in x.lower()]
-
     y = [i for i in y.lower()]
     if len(x) == len(y):
         for i in range(len(x)):
@@ -27,6 +26,12 @@ def istcomp(x,y):
 print(istcomp('a', 'b'))
 
 #Method2
+
+def istcomp1(x,y):
+    return (x.lower() == y.lower())
+
+print(istcomp1('ab', 'ab'))
+
 
 
 
