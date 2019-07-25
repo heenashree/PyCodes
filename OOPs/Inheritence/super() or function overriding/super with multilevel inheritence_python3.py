@@ -4,6 +4,11 @@ Python super() function with multilevel inheritance.
 As we have studied that the Python super() function allows us to refer the superclass implicitly. But in multi-level inheritances, the question arises that there are so many classes so which class did the super() function will refer?
 Well, the super() function has a property that it always refers the immediate superclass. Also, super() function is not only referring the __init__() but it can also call the other functions of the superclass when it needs.
 
+Super has following properties
+
+The method being called upon by super() must exist
+Both the caller and callee functions need to have a matching argument signature
+Every occurrence of the method must include super() after you use it
 Here is the example of explaining the multiple inheritances.
 '''
 
