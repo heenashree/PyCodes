@@ -1,4 +1,5 @@
-#Currying is a term from functional oriented programming. It is refered to the functions that return other functions.
+#Currying is a term from functional oriented programming.
+# It is refered to the functions that return other functions.
 
 def a(x):
     def b(y):
