@@ -44,5 +44,7 @@ letters2 = [ch for ch in word
             ]
 #Explaination: Both are same method
 
+#-------------------------------------------#
 
+print("no"*100)
 
