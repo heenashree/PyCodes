@@ -42,4 +42,7 @@ k = (1,[2,3], 4)
 k[1][0] = -1
 print(k)
 
+#linked list
+#sorted array, find the sum that equates to a number
+# find rotation of a sorted list
 
