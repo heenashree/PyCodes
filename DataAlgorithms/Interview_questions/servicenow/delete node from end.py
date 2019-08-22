@@ -36,7 +36,12 @@ class Linkedlist:
             currentNode = currentNode.next
             currentPosition+=1
 
-
+    def deletenode(self):
+        currentnode = self.head
+        while currentnode.next is not None:
+            previousNode = currentnode
+            currentnode = currentnode.next
+        previousNode.next=None
 
 
     def printlist(self):
@@ -69,6 +74,5 @@ linkedlist.InBetweenInsert(betweennode, 2)
 linkedlist.printlist()
 
 
-
-
-
+linkedlist.deletenode()
+linkedlist.printlist()
