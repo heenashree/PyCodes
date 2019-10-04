@@ -20,7 +20,7 @@ def is_stressful(subj):
             else:
                 print("else")
                 #data = ''.join(list(dict.fromkeys(subj).keys()))
-                #Cotinue https://py.checkio.org/mission/stressful-subject/solve/
+                
 
                 subj1 = [i for i in subj.lower() if i.isalpha()]
                 print(subj1)
