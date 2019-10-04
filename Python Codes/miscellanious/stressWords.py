@@ -20,6 +20,7 @@ def is_stressful(subj):
             else:
                 print("else")
                 #data = ''.join(list(dict.fromkeys(subj).keys()))
+                #Cotinue https://py.checkio.org/mission/stressful-subject/solve/
 
                 subj1 = [i for i in subj.lower() if i.isalpha()]
                 print(subj1)
@@ -34,7 +35,7 @@ def is_stressful(subj):
                     return False
 
 if __name__ == '__main__':
-    #These "asserts" using only for self-checking and not necessary for auto-testing
+   #These "asserts" using only for self-checking and not necessary for auto-testing
    #assert is_stressful("asap help") == True, "First"
    #assert is_stressful("We need you A.S.A.P.!!") == True, "Second"
    ##assert is_stressful("yelp!!!!") == True, "Third"
