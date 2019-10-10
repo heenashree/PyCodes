@@ -1,0 +1,10 @@
+1. Range is a generator
+
+2. an integer is not mutable, so it cannot change, so when you assign a new value to an integer,
+you're actually assigning an entirely different object to the name.
+The original integer is not changed, the name simply refers to a new object.
+Passing a value to a function acts exactly the same way. A reference to the object is passed and acts exactly like an assignment.
+So mutable objects may be changed, and those changes will be reflected in the caller. Immutable objects may not be changed
+
+3. yield is like return but instead it continues to run the loop until it goes to the next value
+
