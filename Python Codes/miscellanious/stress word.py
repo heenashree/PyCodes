@@ -9,15 +9,16 @@ def is_stressful(subj):
         print("upper")
         return True
     elif subj in red:
-        print("red")
         return True
-    elif:
-        import re
-        batRegex = re.compile(r'Bat(wo)+man')
-        mo2 = batRegex.search('The Adventures of Batwowowowoman')
-        print(mo2.group())
-
-
+    else:
+        print("else")
+        from collections import OrderedDict
+        result = "".join(OrderedDict.fromkeys(subj))
+        print("result", result)
+        if result in red:
+            return True
+        else:
+            return False
 
 
 if __name__ == '__main__':
