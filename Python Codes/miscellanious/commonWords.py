@@ -1,5 +1,6 @@
 def checkio(first, second):
     a = set(first.split(","))
+
     b = set(second.split(","))
     print(a.intersection(b))
     print(sorted(a.intersection(b)))
