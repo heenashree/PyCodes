@@ -1,0 +1,1 @@
+print(bool(() or(1,)))
