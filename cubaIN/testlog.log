@@ -1,0 +1,5 @@
+ERROR:root:Couldnt find item
+WARNING:root:this is warning
+INFO:root:this is info
+DEBUG:root:this is debug
+CRITICAL:root:this is critical
