@@ -1,2 +1,5 @@
 The magic method __new__ will be called when instance is being created. Using this method you can customize the instance creation.
 This is only the method which will be called first then __init__ will be called to initialize instance when you are creating instance.
+
+int.__add__(a,b) is also magic method
+__sub__ is magic mehtod

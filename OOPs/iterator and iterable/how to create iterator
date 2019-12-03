@@ -1,0 +1,4 @@
+Just like other iterators, Generator objects can be used in a for loop or with the built-in function next()
+which returns the next value from generator. So a generator function is the easiest way to create an Iterator object.
+Iterator: Every generator object is an iterator but not vice versa.
+https://stackoverflow.com/questions/2776829/difference-between-pythons-generators-and-iterators

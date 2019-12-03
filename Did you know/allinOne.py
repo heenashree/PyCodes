@@ -48,3 +48,12 @@ letters2 = [ch for ch in word
 
 print("no"*100)
 
+###----------------------------------------------#
+
+a_Val = 1
+b_val = True
+print(a_Val + b_val)
+# output: 2
+# print(int(b_val))
+# 1
+
