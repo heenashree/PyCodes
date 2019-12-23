@@ -10,7 +10,7 @@ On the memory issue, in Python when you "delete" you are basically removing a re
 When an object is not referenced by any variable nor other object or becomes unreachable, 
 it becomes garbage and can be removed from memory. 
 Python has a garbage collector that from time to time it does this job of 
-checking which objects are garbage and releases the memory allocated for them. 
+checking whic \h objects are garbage and releases the memory allocated for them. 
 If the object you are deleting from the dictionary is referenced by other variable 
 then it is still reachable, thus it is not garbage so it won't be deleted. 
 I leave you here some links if you are interested in reading about garbage collection in general 
