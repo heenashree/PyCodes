@@ -3,9 +3,7 @@ def count_consecutive_summers(num):
     L = 1
     count = 0
     while  L(L+1)/2 < num:
-
-
-    return None
+        return None
 
 
 if __name__ == '__main__':

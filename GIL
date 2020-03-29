@@ -1,0 +1,19 @@
+I am trying to understand the advantages of multiprocessing over threading.
+I know that multiprocessing gets around the Global Interpreter Lock,
+but what other advantages are there, and can threading not do the same thing?
+
+
+The threading module uses threads, the multiprocessing module uses processes.
+The difference is that threads run in the same memory space, while processes have separate
+memory. This makes it a bit harder to share objects between processes with multiprocessing.
+Since threads use the same memory, precautions have to be taken or two threads will write
+ to the same memory at the same time. This is what the global interpreter lock is for.
+
+Spawning processes is a bit slower than spawning threads.
+
+However, Python* has an added issue: There's a Global Interpreter Lock that prevents two
+threads in the same process from running Python code at the same time. This means that
+if you have 8 cores, and change your code to use 8 threads, it won't be able to use
+800% CPU and run 8x faster; it'll use the same 100% CPU and run at the same speed.
+(In reality, it'll run a little slower, because there's extra overhead from threading,
+even if you don't have any shared data, but ignore that for now.)

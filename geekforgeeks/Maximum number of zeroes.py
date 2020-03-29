@@ -9,4 +9,6 @@ for i in arr:
              count = count+1
              d[i] = count
      count = 0
+print(d)
 print(sorted(d.items(), key=lambda x: x[1]))
+
