@@ -1,0 +1,5 @@
+If you want to search through an unsorted array or to find the first occurrence of a search variable, the best option is linear search.
+If you want to search through a sorted array, there are many options of which the simplest and fastest method is binary search.
+If you have a sorted array that you want to search through without using the division operator, you can use either jump search or Fibonacci search.
+If you know that the element you're searching for is likely to be closer to the start of the array, you can use exponential search.
+If your sorted array is also uniformly distributed, the fastest and most efficient search algorithm to use would be interpolation search.
